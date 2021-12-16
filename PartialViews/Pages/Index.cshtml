@@ -1,0 +1,9 @@
+﻿@page
+@model IndexModel
+@foreach (PartialViews.Models.Film film in Model.Films)
+{
+    <partial name="_Partial" model="film" />
+}
+
+
+
